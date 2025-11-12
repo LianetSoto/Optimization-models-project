@@ -8,12 +8,60 @@
       "max_iterations": 60,
       "category": "cerca"
     },
+     {
+      "name": "Cerca-Cuadrante-I-2",
+      "x0": [0.5, 0.5],
+      "learning_rate": 0.4,
+      "tolerance": 1e-6,
+      "max_iterations": 60,
+      "category": "cerca"
+    },
+    {
+      "name": "Cerca-Cuadrante-I-3",
+      "x0": [0.7, 0.3],
+      "learning_rate": 0.35,
+      "tolerance": 1e-5,
+      "max_iterations": 70,
+      "category": "cerca"
+    },
+    {
+      "name": "Cerca-Cuadrante-I-4",
+      "x0": [0.2, 0.9],
+      "learning_rate": 0.45,
+      "tolerance": 1e-7,
+      "max_iterations": 80,
+      "category": "cerca"
+    },
     {
       "name": "Cerca-Cuadrante-II", 
       "x0": [-0.5, 0.3],
       "learning_rate": 0.3,
       "tolerance": 1e-5,
       "max_iterations": 80,
+      "category": "cerca"
+    },
+    {
+      "name": "Cerca-Cuadrante-II-2",
+      "x0": [-0.5, 0.5],
+      "learning_rate": 0.4,
+      "tolerance": 1e-6,
+      "max_iterations": 65,
+      "category": "cerca"
+    },
+    {
+      "name": "Cerca-Cuadrante-II-3",
+      "x0": [-0.8, 0.2],
+      "learning_rate": 0.3,
+      "tolerance": 1e-5,
+      "max_iterations": 75,
+      "category": "cerca"
+    },
+    {
+      "name": "Cerca-Cuadrante-II-4",
+      "x0": [-0.3, 0.7],
+      "learning_rate": 0.35,
+      "tolerance": 1e-6,
+      "max_iterations": 70,
       "category": "cerca"
     },
     {
@@ -25,6 +73,30 @@
       "category": "cerca"
     },
     {
+      "name": "Cerca-Cuadrante-III-2",
+      "x0": [-0.5, -0.5],
+      "learning_rate": 0.4,
+      "tolerance": 1e-6,
+      "max_iterations": 60,
+      "category": "cerca"
+    },
+    {
+      "name": "Cerca-Cuadrante-III-3",
+      "x0": [-0.8, -0.2],
+      "learning_rate": 0.35,
+      "tolerance": 1e-5,
+      "max_iterations": 70,
+      "category": "cerca"
+    },
+    {
+      "name": "Cerca-Cuadrante-III-4",
+      "x0": [-0.3, -0.7],
+      "learning_rate": 0.45,
+      "tolerance": 1e-7,
+      "max_iterations": 80,
+      "category": "cerca"
+    },
+    {
       "name": "Cerca-Cuadrante-IV",
       "x0": [0.4, -0.3],
       "learning_rate": 0.45,
@@ -33,11 +105,59 @@
       "category": "cerca"
     },
     {
+      "name": "Cerca-Cuadrante-IV-2",
+      "x0": [0.5, -0.5],
+      "learning_rate": 0.4,
+      "tolerance": 1e-6,
+      "max_iterations": 60,
+      "category": "cerca"
+    },
+    {
+      "name": "Cerca-Cuadrante-IV-3",
+      "x0": [0.8, -0.2],
+      "learning_rate": 0.35,
+      "tolerance": 1e-5,
+      "max_iterations": 70,
+      "category": "cerca"
+    },
+    {
+      "name": "Cerca-Cuadrante-IV-4",
+      "x0": [0.3, -0.7],
+      "learning_rate": 0.45,
+      "tolerance": 1e-7,
+      "max_iterations": 80,
+      "category": "cerca"
+    },
+    {
       "name": "Lejos-Cuadrante-I",
       "x0": [95, 80],
       "learning_rate": 0.008,
       "tolerance": 1e-4,
       "max_iterations": 250,
+      "category": "lejos"
+    },
+     {
+      "name": "Lejos-Cuadrante-I-2",
+      "x0": [60, 70],
+      "learning_rate": 0.01,
+      "tolerance": 1e-4,
+      "max_iterations": 200,
+      "category": "lejos"
+    },
+    {
+      "name": "Lejos-Cuadrante-I-3",
+      "x0": [80, 50],
+      "learning_rate": 0.008,
+      "tolerance": 1e-5,
+      "max_iterations": 180,
+      "category": "lejos"
+    },
+    {
+      "name": "Lejos-Cuadrante-I-4",
+      "x0": [100, 90],
+      "learning_rate": 0.015,
+      "tolerance": 1e-4,
+      "max_iterations": 220,
       "category": "lejos"
     },
     {
@@ -49,11 +169,59 @@
       "category": "lejos"
     },
     {
+      "name": "Lejos-Cuadrante-II-2",
+      "x0": [-60, 70],
+      "learning_rate": 0.01,
+      "tolerance": 1e-4,
+      "max_iterations": 200,
+      "category": "lejos"
+    },
+    {
+      "name": "Lejos-Cuadrante-II-3",
+      "x0": [-80, 50],
+      "learning_rate": 0.012,
+      "tolerance": 1e-5,
+      "max_iterations": 180,
+      "category": "lejos"
+    },
+    {
+      "name": "Lejos-Cuadrante-II-4",
+      "x0": [-100, 90],
+      "learning_rate": 0.015,
+      "tolerance": 1e-4,
+      "max_iterations": 220,
+      "category": "lejos"
+    },
+    {
       "name": "Lejos-Cuadrante-III",
       "x0": [-85, -95],
       "learning_rate": 0.01,
       "tolerance": 1e-4,
       "max_iterations": 200,
+      "category": "lejos"
+    },
+     {
+      "name": "Lejos-Cuadrante-III-2",
+      "x0": [-60, -70],
+      "learning_rate": 0.01,
+      "tolerance": 1e-4,
+      "max_iterations": 200,
+      "category": "lejos"
+    },
+    {
+      "name": "Lejos-Cuadrante-III-3",
+      "x0": [-80, -50],
+      "learning_rate": 0.008,
+      "tolerance": 1e-5,
+      "max_iterations": 180,
+      "category": "lejos"
+    },
+    {
+      "name": "Lejos-Cuadrante-III-4",
+      "x0": [-100, -90],
+      "learning_rate": 0.015,
+      "tolerance": 1e-4,
+      "max_iterations": 220,
       "category": "lejos"
     },
     {
@@ -62,6 +230,30 @@
       "learning_rate": 0.015,
       "tolerance": 1e-5,
       "max_iterations": 180,
+      "category": "lejos"
+    },
+    {
+      "name": "Lejos-Cuadrante-IV-2",
+      "x0": [60, -70],
+      "learning_rate": 0.01,
+      "tolerance": 1e-4,
+      "max_iterations": 200,
+      "category": "lejos"
+    },
+    {
+      "name": "Lejos-Cuadrante-IV-3",
+      "x0": [80, -50],
+      "learning_rate": 0.012,
+      "tolerance": 1e-5,
+      "max_iterations": 180,
+      "category": "lejos"
+    },
+    {
+      "name": "Lejos-Cuadrante-IV-4",
+      "x0": [100, -90],
+      "learning_rate": 0.015,
+      "tolerance": 1e-4,
+      "max_iterations": 220,
       "category": "lejos"
     }
   ]

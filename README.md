@@ -6,11 +6,7 @@ Este proyecto implementa y compara dos métodos de optimización no lineal (Grad
 
 ## Función Objetivo
 
-```latex
-\[
-     f(x,y) = (e^x + e^y) \arctan(x^2 + y^2)
-\]
-```
+`f(x,y) = (eˣ + eʸ) arctan(x² + y²)`
 
 ## 🚀 Instalación y Configuración
 
@@ -26,7 +22,7 @@ Este proyecto implementa y compara dos métodos de optimización no lineal (Grad
 Para probar la implementacion de los algoritmos se cuenta con varias opciones:
 
 ### Opción 1: Casos Predefinidos
-El proyecto incluye 8 casos de prueba organizados en 2 categorías:
+El proyecto incluye 32 casos de prueba organizados en 2 categorías:
 
 🔹 **Puntos Cercanos al Origen (0,0)**  
 🔸 **Puntos Lejanos al Origen (0,0)**
@@ -46,7 +42,7 @@ Cada caso de prueba acepta estos parámetros:
   "casos_prueba": [
     {
       "name": "Mi-Caso-Personalizado",
-      "x0": [x_inicial, y_inicial],
+      "x0": [x, y_inicial],
       "learning_rate": 0.01,
       "tolerance": 1e-6,
       "max_iterations": 100,

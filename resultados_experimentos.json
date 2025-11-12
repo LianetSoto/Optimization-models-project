@@ -1,0 +1,917 @@
+{
+  "metadata": {
+    "fecha_ejecucion": "2025-11-12T13:43:46.677584",
+    "total_casos": 32,
+    "funcion_objetivo": "f(x,y) = (eˣ + eʸ) arctan(x² + y²)"
+  },
+  "resultados": [
+    {
+      "nombre": "Cerca-Cuadrante-I",
+      "punto_inicial": [
+        0.8,
+        0.6
+      ],
+      "parametros": {
+        "learning_rate": 0.4,
+        "tolerance": 1e-06,
+        "max_iterations": 60
+      },
+      "quasi_newton": {
+        "optimo": [
+          -5.262604854627164e-08,
+          -5.9331192959757864e-08
+        ],
+        "iteraciones": 5,
+        "valor_final": 1.2579382183068638e-14
+      },
+      "descenso_gradiente": {
+        "optimo": [
+          -3.5897484746434216,
+          -3.582197008465402
+        ],
+        "iteraciones": 61,
+        "valor_final": 0.08489942886689761
+      }
+    },
+    {
+      "nombre": "Cerca-Cuadrante-I-2",
+      "punto_inicial": [
+        0.5,
+        0.5
+      ],
+      "parametros": {
+        "learning_rate": 0.4,
+        "tolerance": 1e-06,
+        "max_iterations": 60
+      },
+      "quasi_newton": {
+        "optimo": [
+          -6.209931892336255e-09,
+          -6.2099434766434445e-09
+        ],
+        "iteraciones": 7,
+        "valor_final": 1.5425330322321943e-16
+      },
+      "descenso_gradiente": {
+        "optimo": [
+          2.700607635960673e-07,
+          2.700607635960673e-07
+        ],
+        "iteraciones": 33,
+        "valor_final": 2.917313429215424e-13
+      }
+    },
+    {
+      "nombre": "Cerca-Cuadrante-I-3",
+      "punto_inicial": [
+        0.7,
+        0.3
+      ],
+      "parametros": {
+        "learning_rate": 0.35,
+        "tolerance": 1e-05,
+        "max_iterations": 70
+      },
+      "quasi_newton": {
+        "optimo": [
+          -7.225531452788859e-07,
+          5.140349074668221e-07
+        ],
+        "iteraciones": 7,
+        "valor_final": 1.5726297037329748e-12
+      },
+      "descenso_gradiente": {
+        "optimo": [
+          -4.542742391603797e-06,
+          -4.044592390674199e-06
+        ],
+        "iteraciones": 16,
+        "valor_final": 7.399015439655471e-11
+      }
+    },
+    {
+      "nombre": "Cerca-Cuadrante-I-4",
+      "punto_inicial": [
+        0.2,
+        0.9
+      ],
+      "parametros": {
+        "learning_rate": 0.45,
+        "tolerance": 1e-07,
+        "max_iterations": 80
+      },
+      "quasi_newton": {
+        "optimo": [
+          -2.1491589943460908e-10,
+          -1.0668632382553116e-09
+        ],
+        "iteraciones": 8,
+        "valor_final": 2.3687720244226724e-18
+      },
+      "descenso_gradiente": {
+        "optimo": [
+          -4.000325939914042,
+          -4.0273237160558795
+        ],
+        "iteraciones": 81,
+        "valor_final": 0.05563445979002074
+      }
+    },
+    {
+      "nombre": "Cerca-Cuadrante-II",
+      "punto_inicial": [
+        -0.5,
+        0.3
+      ],
+      "parametros": {
+        "learning_rate": 0.3,
+        "tolerance": 1e-05,
+        "max_iterations": 80
+      },
+      "quasi_newton": {
+        "optimo": [
+          1.0577481991187982e-07,
+          -1.0020894808547766e-07
+        ],
+        "iteraciones": 10,
+        "valor_final": 4.246029172574163e-14
+      },
+      "descenso_gradiente": {
+        "optimo": [
+          1.089345188989824e-06,
+          -2.7512766345799838e-06
+        ],
+        "iteraciones": 9,
+        "valor_final": 1.751237756936283e-11
+      }
+    },
+    {
+      "nombre": "Cerca-Cuadrante-II-2",
+      "punto_inicial": [
+        -0.5,
+        0.5
+      ],
+      "parametros": {
+        "learning_rate": 0.4,
+        "tolerance": 1e-06,
+        "max_iterations": 65
+      },
+      "quasi_newton": {
+        "optimo": [
+          1.2333165575630672e-09,
+          -2.742560361263316e-09
+        ],
+        "iteraciones": 8,
+        "valor_final": 1.808541411901632e-17
+      },
+      "descenso_gradiente": {
+        "optimo": [
+          3.720743492802667e-07,
+          -2.3018459496198596e-07
+        ],
+        "iteraciones": 29,
+        "valor_final": 3.8284856546145574e-13
+      }
+    },
+    {
+      "nombre": "Cerca-Cuadrante-II-3",
+      "punto_inicial": [
+        -0.8,
+        0.2
+      ],
+      "parametros": {
+        "learning_rate": 0.3,
+        "tolerance": 1e-05,
+        "max_iterations": 75
+      },
+      "quasi_newton": {
+        "optimo": [
+          3.983188626107998e-09,
+          8.279761169590553e-09
+        ],
+        "iteraciones": 7,
+        "valor_final": 1.6884047434847242e-16
+      },
+      "descenso_gradiente": {
+        "optimo": [
+          -2.045679272835322e-06,
+          -1.7005225290463267e-06
+        ],
+        "iteraciones": 10,
+        "valor_final": 1.415313460793053e-11
+      }
+    },
+    {
+      "nombre": "Cerca-Cuadrante-II-4",
+      "punto_inicial": [
+        -0.3,
+        0.7
+      ],
+      "parametros": {
+        "learning_rate": 0.35,
+        "tolerance": 1e-06,
+        "max_iterations": 70
+      },
+      "quasi_newton": {
+        "optimo": [
+          2.0085112564536256e-09,
+          1.9507350185987726e-09
+        ],
+        "iteraciones": 8,
+        "valor_final": 1.5678969191215402e-17
+      },
+      "descenso_gradiente": {
+        "optimo": [
+          2.388156905361206e-07,
+          2.9624098945460825e-07
+        ],
+        "iteraciones": 17,
+        "valor_final": 2.8958339323033307e-13
+      }
+    },
+    {
+      "nombre": "Cerca-Cuadrante-III",
+      "punto_inicial": [
+        -0.7,
+        -0.9
+      ],
+      "parametros": {
+        "learning_rate": 0.35,
+        "tolerance": 1e-05,
+        "max_iterations": 75
+      },
+      "quasi_newton": {
+        "optimo": [
+          8.98677159344918e-07,
+          -2.2684067998728937e-06
+        ],
+        "iteraciones": 9,
+        "valor_final": 1.1906571938495554e-11
+      },
+      "descenso_gradiente": {
+        "optimo": [
+          2.182217037770689e-06,
+          2.1857060940781858e-06
+        ],
+        "iteraciones": 18,
+        "valor_final": 1.9078806326588638e-11
+      }
+    },
+    {
+      "nombre": "Cerca-Cuadrante-III-2",
+      "punto_inicial": [
+        -0.5,
+        -0.5
+      ],
+      "parametros": {
+        "learning_rate": 0.4,
+        "tolerance": 1e-06,
+        "max_iterations": 60
+      },
+      "quasi_newton": {
+        "optimo": [
+          3.547696149059268e-08,
+          3.547696148992183e-08
+        ],
+        "iteraciones": 6,
+        "valor_final": 5.034459364932102e-15
+      },
+      "descenso_gradiente": {
+        "optimo": [
+          3.828650751656407e-07,
+          3.828650751656407e-07
+        ],
+        "iteraciones": 26,
+        "valor_final": 5.863428876165376e-13
+      }
+    },
+    {
+      "nombre": "Cerca-Cuadrante-III-3",
+      "punto_inicial": [
+        -0.8,
+        -0.2
+      ],
+      "parametros": {
+        "learning_rate": 0.35,
+        "tolerance": 1e-05,
+        "max_iterations": 70
+      },
+      "quasi_newton": {
+        "optimo": [
+          6.217027273484395e-07,
+          -1.2542185979018836e-06
+        ],
+        "iteraciones": 7,
+        "valor_final": 3.919155905568283e-12
+      },
+      "descenso_gradiente": {
+        "optimo": [
+          1.9788046903558837e-06,
+          2.0698835316597226e-06
+        ],
+        "iteraciones": 15,
+        "valor_final": 1.6400204874045707e-11
+      }
+    },
+    {
+      "nombre": "Cerca-Cuadrante-III-4",
+      "punto_inicial": [
+        -0.3,
+        -0.7
+      ],
+      "parametros": {
+        "learning_rate": 0.45,
+        "tolerance": 1e-07,
+        "max_iterations": 80
+      },
+      "quasi_newton": {
+        "optimo": [
+          -2.3538798922417437e-10,
+          -7.026577963190627e-10
+        ],
+        "iteraciones": 8,
+        "valor_final": 1.0982709678828087e-18
+      },
+      "descenso_gradiente": {
+        "optimo": [
+          3.5599169337350887e-08,
+          3.8214864900788475e-08
+        ],
+        "iteraciones": 68,
+        "valor_final": 5.455353715130627e-15
+      }
+    },
+    {
+      "nombre": "Cerca-Cuadrante-IV",
+      "punto_inicial": [
+        0.4,
+        -0.3
+      ],
+      "parametros": {
+        "learning_rate": 0.45,
+        "tolerance": 1e-07,
+        "max_iterations": 55
+      },
+      "quasi_newton": {
+        "optimo": [
+          8.242152815725919e-10,
+          -3.023790376047391e-10
+        ],
+        "iteraciones": 9,
+        "valor_final": 1.5415278259233229e-18
+      },
+      "descenso_gradiente": {
+        "optimo": [
+          -1.580561793145668e-06,
+          1.6693298387189043e-06
+        ],
+        "iteraciones": 56,
+        "valor_final": 1.0569675853916943e-11
+      }
+    },
+    {
+      "nombre": "Cerca-Cuadrante-IV-2",
+      "punto_inicial": [
+        0.5,
+        -0.5
+      ],
+      "parametros": {
+        "learning_rate": 0.4,
+        "tolerance": 1e-06,
+        "max_iterations": 60
+      },
+      "quasi_newton": {
+        "optimo": [
+          -2.7425603612635015e-09,
+          1.233316557563279e-09
+        ],
+        "iteraciones": 8,
+        "valor_final": 1.8085414119019395e-17
+      },
+      "descenso_gradiente": {
+        "optimo": [
+          -2.3018459496198596e-07,
+          3.720743492802667e-07
+        ],
+        "iteraciones": 29,
+        "valor_final": 3.8284856546145574e-13
+      }
+    },
+    {
+      "nombre": "Cerca-Cuadrante-IV-3",
+      "punto_inicial": [
+        0.8,
+        -0.2
+      ],
+      "parametros": {
+        "learning_rate": 0.35,
+        "tolerance": 1e-05,
+        "max_iterations": 70
+      },
+      "quasi_newton": {
+        "optimo": [
+          -9.324877258373499e-08,
+          1.482900037870109e-07
+        ],
+        "iteraciones": 7,
+        "valor_final": 6.137051931200454e-14
+      },
+      "descenso_gradiente": {
+        "optimo": [
+          -4.065345761092564e-06,
+          -4.694850519095273e-06
+        ],
+        "iteraciones": 15,
+        "valor_final": 7.71369772394982e-11
+      }
+    },
+    {
+      "nombre": "Cerca-Cuadrante-IV-4",
+      "punto_inicial": [
+        0.3,
+        -0.7
+      ],
+      "parametros": {
+        "learning_rate": 0.45,
+        "tolerance": 1e-07,
+        "max_iterations": 80
+      },
+      "quasi_newton": {
+        "optimo": [
+          -7.0325081448873906e-09,
+          -2.0929992073774492e-09
+        ],
+        "iteraciones": 8,
+        "valor_final": 1.0767363248869197e-16
+      },
+      "descenso_gradiente": {
+        "optimo": [
+          4.3779461330369904e-08,
+          -2.747012106032146e-08
+        ],
+        "iteraciones": 72,
+        "valor_final": 5.342497614458449e-15
+      }
+    },
+    {
+      "nombre": "Lejos-Cuadrante-I",
+      "punto_inicial": [
+        95,
+        80
+      ],
+      "parametros": {
+        "learning_rate": 0.008,
+        "tolerance": 0.0001,
+        "max_iterations": 250
+      },
+      "quasi_newton": {
+        "optimo": [
+          93.99001595888376,
+          42.17716950575165
+        ],
+        "iteraciones": 2,
+        "valor_final": 1.0361893163405677e+41
+      },
+      "descenso_gradiente": {
+        "optimo": [
+          -2.2759773779295803e+39,
+          -1.670622505194837e+33
+        ],
+        "iteraciones": 3,
+        "valor_final": 1.1686591349465646e-43
+      }
+    },
+    {
+      "nombre": "Lejos-Cuadrante-I-2",
+      "punto_inicial": [
+        60,
+        70
+      ],
+      "parametros": {
+        "learning_rate": 0.01,
+        "tolerance": 0.0001,
+        "max_iterations": 200
+      },
+      "quasi_newton": {
+        "optimo": [
+          -109.89630688221963,
+          -10.072799033276407
+        ],
+        "iteraciones": 117,
+        "valor_final": 6.630273879402303e-05
+      },
+      "descenso_gradiente": {
+        "optimo": [
+          -1.8355074676479114e+24,
+          -3.9509507650253876e+28
+        ],
+        "iteraciones": 3,
+        "valor_final": 1.1686591349465646e-43
+      }
+    },
+    {
+      "nombre": "Lejos-Cuadrante-I-3",
+      "punto_inicial": [
+        80,
+        50
+      ],
+      "parametros": {
+        "learning_rate": 0.008,
+        "tolerance": 1e-05,
+        "max_iterations": 180
+      },
+      "quasi_newton": {
+        "optimo": [
+          -0.801227011595784,
+          0.34591106369560065
+        ],
+        "iteraciones": 124,
+        "valor_final": 1.2120040989439727
+      },
+      "descenso_gradiente": {
+        "optimo": [
+          -6.962062351590299e+32,
+          -5.595882297179471e+26
+        ],
+        "iteraciones": 3,
+        "valor_final": 1.1686591349465646e-43
+      }
+    },
+    {
+      "nombre": "Lejos-Cuadrante-I-4",
+      "punto_inicial": [
+        100,
+        90
+      ],
+      "parametros": {
+        "learning_rate": 0.015,
+        "tolerance": 0.0001,
+        "max_iterations": 220
+      },
+      "quasi_newton": {
+        "optimo": [
+          -10.150086603868099,
+          -61891.48546162605
+        ],
+        "iteraciones": 160,
+        "valor_final": 6.137138257162623e-05
+      },
+      "descenso_gradiente": {
+        "optimo": [
+          -6.333506488082518e+41,
+          -2.8975615205711085e+37
+        ],
+        "iteraciones": 3,
+        "valor_final": 1.1686591349465646e-43
+      }
+    },
+    {
+      "nombre": "Lejos-Cuadrante-II",
+      "punto_inicial": [
+        -90,
+        85
+      ],
+      "parametros": {
+        "learning_rate": 0.012,
+        "tolerance": 1e-05,
+        "max_iterations": 220
+      },
+      "quasi_newton": {
+        "optimo": [
+          -324780.7073473007,
+          -12.566654607229307
+        ],
+        "iteraciones": 143,
+        "valor_final": 5.47600588332154e-06
+      },
+      "descenso_gradiente": {
+        "optimo": [
+          -5.066820151801887e+41,
+          -5.0668217017403484e+41
+        ],
+        "iteraciones": 5,
+        "valor_final": 1.1686591349465646e-43
+      }
+    },
+    {
+      "nombre": "Lejos-Cuadrante-II-2",
+      "punto_inicial": [
+        -60,
+        70
+      ],
+      "parametros": {
+        "learning_rate": 0.01,
+        "tolerance": 0.0001,
+        "max_iterations": 200
+      },
+      "quasi_newton": {
+        "optimo": [
+          -22.03059582310396,
+          68.99003937134104
+        ],
+        "iteraciones": 2,
+        "valor_final": 1.438999243662885e+30
+      },
+      "descenso_gradiente": {
+        "optimo": [
+          -4.222350126502203e+41,
+          -4.222350126502599e+41
+        ],
+        "iteraciones": 5,
+        "valor_final": 1.1686591349465646e-43
+      }
+    },
+    {
+      "nombre": "Lejos-Cuadrante-II-3",
+      "punto_inicial": [
+        -80,
+        50
+      ],
+      "parametros": {
+        "learning_rate": 0.012,
+        "tolerance": 1e-05,
+        "max_iterations": 180
+      },
+      "quasi_newton": {
+        "optimo": [
+          -140054.0122513605,
+          -12.206918803154029
+        ],
+        "iteraciones": 91,
+        "valor_final": 7.846846496149498e-06
+      },
+      "descenso_gradiente": {
+        "optimo": [
+          -5.066820151802643e+41,
+          -5.066820151802643e+41
+        ],
+        "iteraciones": 5,
+        "valor_final": 1.1686591349465646e-43
+      }
+    },
+    {
+      "nombre": "Lejos-Cuadrante-II-4",
+      "punto_inicial": [
+        -100,
+        90
+      ],
+      "parametros": {
+        "learning_rate": 0.015,
+        "tolerance": 0.0001,
+        "max_iterations": 220
+      },
+      "quasi_newton": {
+        "optimo": [
+          -180772.9963245723,
+          -9.700901082865574
+        ],
+        "iteraciones": 148,
+        "valor_final": 9.61711205042773e-05
+      },
+      "descenso_gradiente": {
+        "optimo": [
+          -6.333527205729401e+41,
+          -2.855246506772796e+37
+        ],
+        "iteraciones": 4,
+        "valor_final": 1.1686591349465646e-43
+      }
+    },
+    {
+      "nombre": "Lejos-Cuadrante-III",
+      "punto_inicial": [
+        -85,
+        -95
+      ],
+      "parametros": {
+        "learning_rate": 0.01,
+        "tolerance": 0.0001,
+        "max_iterations": 200
+      },
+      "quasi_newton": {
+        "optimo": [
+          -85.0,
+          -95.0
+        ],
+        "iteraciones": 0,
+        "valor_final": 1.9102561969643444e-37
+      },
+      "descenso_gradiente": {
+        "optimo": [
+          -85.0,
+          -95.0
+        ],
+        "iteraciones": 2,
+        "valor_final": 1.9102561969643444e-37
+      }
+    },
+    {
+      "nombre": "Lejos-Cuadrante-III-2",
+      "punto_inicial": [
+        -60,
+        -70
+      ],
+      "parametros": {
+        "learning_rate": 0.01,
+        "tolerance": 0.0001,
+        "max_iterations": 200
+      },
+      "quasi_newton": {
+        "optimo": [
+          -60.0,
+          -70.0
+        ],
+        "iteraciones": 0,
+        "valor_final": 1.375428917926589e-26
+      },
+      "descenso_gradiente": {
+        "optimo": [
+          -60.0,
+          -70.0
+        ],
+        "iteraciones": 2,
+        "valor_final": 1.375428917926589e-26
+      }
+    },
+    {
+      "nombre": "Lejos-Cuadrante-III-3",
+      "punto_inicial": [
+        -80,
+        -50
+      ],
+      "parametros": {
+        "learning_rate": 0.008,
+        "tolerance": 1e-05,
+        "max_iterations": 180
+      },
+      "quasi_newton": {
+        "optimo": [
+          -80.0,
+          -50.0
+        ],
+        "iteraciones": 0,
+        "valor_final": 3.0294564630230697e-22
+      },
+      "descenso_gradiente": {
+        "optimo": [
+          -80.0,
+          -50.0
+        ],
+        "iteraciones": 2,
+        "valor_final": 3.0294564630230697e-22
+      }
+    },
+    {
+      "nombre": "Lejos-Cuadrante-III-4",
+      "punto_inicial": [
+        -100,
+        -90
+      ],
+      "parametros": {
+        "learning_rate": 0.015,
+        "tolerance": 0.0001,
+        "max_iterations": 220
+      },
+      "quasi_newton": {
+        "optimo": [
+          -100.0,
+          -90.0
+        ],
+        "iteraciones": 0,
+        "valor_final": 1.2871256551210942e-39
+      },
+      "descenso_gradiente": {
+        "optimo": [
+          -100.0,
+          -90.0
+        ],
+        "iteraciones": 2,
+        "valor_final": 1.2871256551210942e-39
+      }
+    },
+    {
+      "nombre": "Lejos-Cuadrante-IV",
+      "punto_inicial": [
+        75,
+        -90
+      ],
+      "parametros": {
+        "learning_rate": 0.015,
+        "tolerance": 1e-05,
+        "max_iterations": 180
+      },
+      "quasi_newton": {
+        "optimo": [
+          73.99004452420027,
+          -15.863735470697165
+        ],
+        "iteraciones": 2,
+        "valor_final": 2.1356970287155708e+32
+      },
+      "descenso_gradiente": {
+        "optimo": [
+          -6.333525189841263e+41,
+          -6.333525189753304e+41
+        ],
+        "iteraciones": 5,
+        "valor_final": 1.1686591349465646e-43
+      }
+    },
+    {
+      "nombre": "Lejos-Cuadrante-IV-2",
+      "punto_inicial": [
+        60,
+        -70
+      ],
+      "parametros": {
+        "learning_rate": 0.01,
+        "tolerance": 0.0001,
+        "max_iterations": 200
+      },
+      "quasi_newton": {
+        "optimo": [
+          -10.013198980414955,
+          -128365.46366118499
+        ],
+        "iteraciones": 102,
+        "valor_final": 7.037451894492164e-05
+      },
+      "descenso_gradiente": {
+        "optimo": [
+          -4.222350126502203e+41,
+          -4.222350126502203e+41
+        ],
+        "iteraciones": 5,
+        "valor_final": 1.1686591349465646e-43
+      }
+    },
+    {
+      "nombre": "Lejos-Cuadrante-IV-3",
+      "punto_inicial": [
+        80,
+        -50
+      ],
+      "parametros": {
+        "learning_rate": 0.012,
+        "tolerance": 1e-05,
+        "max_iterations": 180
+      },
+      "quasi_newton": {
+        "optimo": [
+          -12.279327949849328,
+          -59457.146899584695
+        ],
+        "iteraciones": 134,
+        "valor_final": 7.298746310436761e-06
+      },
+      "descenso_gradiente": {
+        "optimo": [
+          -5.066820162245737e+41,
+          -5.066820151802635e+41
+        ],
+        "iteraciones": 5,
+        "valor_final": 1.1686591349465646e-43
+      }
+    },
+    {
+      "nombre": "Lejos-Cuadrante-IV-4",
+      "punto_inicial": [
+        100,
+        -90
+      ],
+      "parametros": {
+        "learning_rate": 0.015,
+        "tolerance": 0.0001,
+        "max_iterations": 220
+      },
+      "quasi_newton": {
+        "optimo": [
+          98.99002023041844,
+          -31.40647988060033
+        ],
+        "iteraciones": 2,
+        "valor_final": 1.5378493418542923e+43
+      },
+      "descenso_gradiente": {
+        "optimo": [
+          -6.333504471882911e+41,
+          -6.3335249904276274e+41
+        ],
+        "iteraciones": 4,
+        "valor_final": 1.1686591349465646e-43
+      }
+    }
+  ],
+  "resumen_estadisticas": {
+    "quasi_newton": {
+      "iteraciones_promedio": 35.90625,
+      "valor_promedio": 4.8381601094974964e+41,
+      "iteraciones_totales": 1149
+    },
+    "descenso_gradiente": {
+      "iteraciones_promedio": 19.15625,
+      "valor_promedio": 0.0043916840277407445,
+      "iteraciones_totales": 613
+    }
+  }
+}
