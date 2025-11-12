@@ -50,13 +50,14 @@ Cada caso de prueba acepta estos parámetros:
     }
   ]
 }
+```
 Parámetros configurables:
 x0: Punto inicial [x, y]
 learning_rate: Tasa de aprendizaje para Gradiente Descendente
 tolerance: Tolerancia para criterio de parada
 max_iterations: Número máximo de iteraciones
 category: Categoría para organización
-```
+
 
 ```python
 # Ejecutar con tu archivo personalizado
