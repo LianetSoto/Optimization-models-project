@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "fecha_ejecucion": "2025-11-12T13:43:46.677584",
+    "fecha_ejecucion": "2025-11-12T16:40:05.109234",
     "total_casos": 32,
     "funcion_objetivo": "f(x,y) = (eˣ + eʸ) arctan(x² + y²)"
   },
