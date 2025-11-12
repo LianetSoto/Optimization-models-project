@@ -6,11 +6,7 @@ Este proyecto implementa y compara dos métodos de optimización no lineal (Grad
 
 ## Función Objetivo
 
-```latex
-\[
-     f(x,y) = (e^x + e^y) \arctan(x^2 + y^2)
-\]
-```
+`f(x,y) = (eˣ + eʸ) arctan(x² + y²)`
 
 ## 🚀 Instalación y Configuración
 
