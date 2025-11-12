@@ -7,7 +7,10 @@ Este proyecto implementa y compara dos métodos de optimización no lineal (Grad
 ## Función Objetivo
 
 ```latex
-f(x,y) = (e^x + e^y) \cdot \arctan(x^2 + y^2)
+\[
+     f(x,y) = (e^x + e^y) \arctan(x^2 + y^2)
+\]
+```
 
 ## 🚀 Instalación y Configuración
 
@@ -57,7 +60,7 @@ learning_rate: Tasa de aprendizaje para Gradiente Descendente
 tolerance: Tolerancia para criterio de parada
 max_iterations: Número máximo de iteraciones
 category: Categoría para organización
-
+```
 
 ```python
 # Ejecutar con tu archivo personalizado
