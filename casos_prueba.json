@@ -1,0 +1,68 @@
+{
+  "casos_prueba": [
+    {
+      "name": "Cerca-Cuadrante-I",
+      "x0": [0.8, 0.6],
+      "learning_rate": 0.4,
+      "tolerance": 1e-6,
+      "max_iterations": 60,
+      "category": "cerca"
+    },
+    {
+      "name": "Cerca-Cuadrante-II", 
+      "x0": [-0.5, 0.3],
+      "learning_rate": 0.3,
+      "tolerance": 1e-5,
+      "max_iterations": 80,
+      "category": "cerca"
+    },
+    {
+      "name": "Cerca-Cuadrante-III",
+      "x0": [-0.7, -0.9],
+      "learning_rate": 0.35,
+      "tolerance": 1e-5,
+      "max_iterations": 75,
+      "category": "cerca"
+    },
+    {
+      "name": "Cerca-Cuadrante-IV",
+      "x0": [0.4, -0.3],
+      "learning_rate": 0.45,
+      "tolerance": 1e-7,
+      "max_iterations": 55,
+      "category": "cerca"
+    },
+    {
+      "name": "Lejos-Cuadrante-I",
+      "x0": [95, 80],
+      "learning_rate": 0.008,
+      "tolerance": 1e-4,
+      "max_iterations": 250,
+      "category": "lejos"
+    },
+    {
+      "name": "Lejos-Cuadrante-II",
+      "x0": [-90, 85],
+      "learning_rate": 0.012,
+      "tolerance": 1e-5,
+      "max_iterations": 220,
+      "category": "lejos"
+    },
+    {
+      "name": "Lejos-Cuadrante-III",
+      "x0": [-85, -95],
+      "learning_rate": 0.01,
+      "tolerance": 1e-4,
+      "max_iterations": 200,
+      "category": "lejos"
+    },
+    {
+      "name": "Lejos-Cuadrante-IV",
+      "x0": [75, -90],
+      "learning_rate": 0.015,
+      "tolerance": 1e-5,
+      "max_iterations": 180,
+      "category": "lejos"
+    }
+  ]
+}
